@@ -39,7 +39,7 @@ jobs:
       - name: Run local k6 test
         uses: grafana/k6-action@v0.3.1
         with:
-          filename: ./CB-APP-Checkout/APP_Checkout_CB_Smoke.ts
+          filename: test.js
 
   k6_cloud_test:
     if: github.event.pull_request.merged == true

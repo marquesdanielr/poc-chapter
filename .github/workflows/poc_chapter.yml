@@ -1,6 +1,6 @@
 name: Poc Chapter
 
-on: [pull_request, push]
+on: [push]
 
 jobs:
   k6_cloud_test:
